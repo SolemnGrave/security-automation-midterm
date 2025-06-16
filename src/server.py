@@ -47,7 +47,7 @@ def start_server():
         print(f"An unexpected error occurred: {e}")
         sys.exit(1)
     finally:
-        print("Server shutting initiated.")
+        print("Server shutdown initiated.")
     
 # Execute the server function if this script is run directly
 if __name__ == "__main__":

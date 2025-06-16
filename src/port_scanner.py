@@ -100,6 +100,8 @@ def main():
         else:
             closed_ports_count += 1
             print(f"[-] Port {port} is closed.")
+        
+        time.sleep(0.05)
 
 #     Summary of the scan results
     print("\n--- Scan Results---")
