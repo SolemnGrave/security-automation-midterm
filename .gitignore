@@ -1,0 +1,18 @@
+#Python VM
+.venv/
+venv/
+env/
+
+#Byte Files
+*.pyc
+__pycache__/
+
+#Editor Files
+.vscode/
+
+#OS Files
+.DS_Store
+Thumbs.db
+
+#Log Files
+*.log
